@@ -11,7 +11,7 @@ namespace DemoDataProviderFactory
 {
     class Program
     {
-        static string GetConnectionString()
+        private string GetConnectionString()
         {
             IConfiguration config = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
